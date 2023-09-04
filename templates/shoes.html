@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% block title%}
+    {{ super() }} - {{ title }}
+{% endblock %}
+
+{%block content%}
+    <table>
+        <tr>
+            <th>Description</th>
+            <th>Image</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>
+                <b>Bjornstrong</b>
+                Upper material: Imitation leather/ textile
+                Lining: Imitation leather
+                Insole: Textile
+                Sole: Synthetics
+                Padding type: Cold padding
+                Fabric: Mesh
+            </td>
+            <td><img src="/static/image/shoe1.jpg"></td>
+            <td>100.00 $</td>
+        </tr>
+        <tr>
+            <td>
+                <b>Nike Sportswear</b>
+                Upper material: Leather and textile
+                Lining: Textile
+                Insole: Textile
+                Sole: Synthetics
+                Padding type: Cold padding
+            </td>
+            <td><img src="/static/image/shoe1.jpg"></td>
+            <td>120.00 $</td>
+    </table>
+{%endblock%}

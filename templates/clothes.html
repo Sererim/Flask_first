@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% block title%}
+    {{ super() }} - {{ title }}
+{% endblock %}
+
+{%block content%}
+<table>
+    <tr>
+        <th>Description</th>
+        <th>Image</th>
+        <th>Price</th>
+    </tr>
+    <tr>
+        <td>
+            <b>St. Marino</b>
+            Fabric: Cotton
+        </td>
+        <td><img src="/static/image/cloth1.png"></td>
+        <td>150.00 $</td>
+    </tr>
+    <tr>
+        <td>
+            <b>St. Marino</b>
+            Fabric: Cotton
+        </td>
+        <td><img src="/static/image/cloth2.png"></td>
+        <td>220.00 $</td>
+</table>
+{%endblock%}
